@@ -1,0 +1,323 @@
+Class documentation
+<---- javadoc command: ---->
+/Users/mustafa/Desktop/BlueJ.app/Contents/JDK/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/junit-4.11.jar:/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/hamcrest-core-1.3.jar:/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/lang-stride.jar:/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.base.jar:/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.controls.jar:/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.fxml.jar:/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.graphics.jar:/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.media.jar:/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.properties.jar:/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.swing.jar:/Users/mustafa/Desktop/BlueJ.app/Contents/Resources/Java/javafx/lib/javafx.web.jar:/Users/mustafa/Documents/Online Courses/JAVA/apache-csv.jar:/Users/mustafa/Documents/Online Courses/JAVA/courserajava.jar:/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork
+-d
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java
+<---- end of javadoc command ---->
+Loading source file /Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java...
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:132: error: illegal start of type
+    return Dna.substring(startIndex, minIndex +3);
+    ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:132: error: <identifier> expected
+    return Dna.substring(startIndex, minIndex +3);
+                        ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:132: error: <identifier> expected
+    return Dna.substring(startIndex, minIndex +3);
+                                   ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:132: error: <identifier> expected
+    return Dna.substring(startIndex, minIndex +3);
+                                             ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:135: error: class, interface, or enum expected
+public StorageResource getAllGene(String dnA){
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:137: error: class, interface, or enum expected
+int startIndex = 0;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:138: error: class, interface, or enum expected
+while (true) {
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:140: error: class, interface, or enum expected
+if (currGene.isEmpty()) break;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:141: error: class, interface, or enum expected
+geneList.add(currGene);  
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:142: error: class, interface, or enum expected
+startIndex = dnA.indexOf(currGene, startIndex) + currGene.length();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:143: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:145: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:147: error: class, interface, or enum expected
+public void processGenes(StorageResource sr){
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:149: error: class, interface, or enum expected
+int ratiocount = 0;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:150: error: class, interface, or enum expected
+int lengthcount = 0;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:151: error: class, interface, or enum expected
+int longestLength = 0;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:152: error: class, interface, or enum expected
+for (String link : sr.data()) {
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:154: error: class, interface, or enum expected
+float ratio = CGRatio(currGene);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:155: error: class, interface, or enum expected
+if (currGene.isEmpty()) break;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:156: error: class, interface, or enum expected
+if (currGene.length() > 60){
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:159: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:161: error: class, interface, or enum expected
+System.out.println(currGene);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:162: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:165: error: class, interface, or enum expected
+System.out.println(currGene);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:166: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:168: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:170: error: class, interface, or enum expected
+System.out.println("The number of genes with lenght greater than or equal to 60 is " + lengthcount);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:171: error: class, interface, or enum expected
+System.out.println("The number of genes with CGratio greater than or equal to 0.35 is " + ratiocount);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:172: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:174: error: class, interface, or enum expected
+public float CGRatio(String dnaString) {
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:176: error: class, interface, or enum expected
+int startpostionC = 0;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:177: error: class, interface, or enum expected
+int startpostionG = 0;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:178: error: class, interface, or enum expected
+float countC = 0;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:179: error: class, interface, or enum expected
+float countG = 0;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:180: error: class, interface, or enum expected
+while (true) {
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:182: error: class, interface, or enum expected
+int g = dnaString.indexOf("G", startpostionG);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:183: error: class, interface, or enum expected
+if (c != -1) countC = countC + 1;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:184: error: class, interface, or enum expected
+if (g != -1) countG = countG + 1;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:185: error: class, interface, or enum expected
+if (c == -1 && g == -1) break;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:186: error: class, interface, or enum expected
+startpostionG = g + 1;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:187: error: class, interface, or enum expected
+startpostionC = c + 1;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:188: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:190: error: class, interface, or enum expected
+return cgratio;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:191: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:193: error: class, interface, or enum expected
+public int CTGCodon(String DnaString) {
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:195: error: class, interface, or enum expected
+int countCTG = 0;
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:196: error: class, interface, or enum expected
+while (true) {
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:198: error: class, interface, or enum expected
+if (CTG == -1){
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:200: error: class, interface, or enum expected
+}else{
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:202: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:204: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:206: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:208: error: class, interface, or enum expected
+public void testProcessGenes() {
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:210: error: class, interface, or enum expected
+String dna = fr.asString();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:211: error: class, interface, or enum expected
+dna = dna.toUpperCase();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:212: error: class, interface, or enum expected
+StorageResource sr = getAllGene(dna);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:213: error: class, interface, or enum expected
+processGenes(sr);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:214: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:216: error: class, interface, or enum expected
+public void testCTGCodon(){
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:218: error: class, interface, or enum expected
+String dna = fr.asString();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:219: error: class, interface, or enum expected
+dna = dna.toUpperCase();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:220: error: class, interface, or enum expected
+int Codon = CTGCodon(dna);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:221: error: class, interface, or enum expected
+System.out.println(Codon);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:222: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:224: error: class, interface, or enum expected
+public void testCGRatio(){
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:226: error: class, interface, or enum expected
+String dna = fr.asString();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:227: error: class, interface, or enum expected
+dna = dna.toUpperCase();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:228: error: class, interface, or enum expected
+float ratio = CGRatio(dna);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:229: error: class, interface, or enum expected
+System.out.println(ratio);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:230: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:232: error: class, interface, or enum expected
+public void testgetAllGenes(){
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:234: error: class, interface, or enum expected
+String dna = fr.asString();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:235: error: class, interface, or enum expected
+dna = dna.toUpperCase();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:236: error: class, interface, or enum expected
+StorageResource sr = getAllGene(dna);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:237: error: class, interface, or enum expected
+System.out.println(sr);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:238: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:240: error: class, interface, or enum expected
+public void testtwoOccurrences(){
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:242: error: class, interface, or enum expected
+String dna = fr.asString();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:243: error: class, interface, or enum expected
+dna = dna.toUpperCase();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:244: error: class, interface, or enum expected
+System.out.println(twoOccurrences("atg", dna));
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:245: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:247: error: class, interface, or enum expected
+public void testCountGenes(){
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:249: error: class, interface, or enum expected
+String dna = fr.asString();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:250: error: class, interface, or enum expected
+dna = dna.toUpperCase();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:251: error: class, interface, or enum expected
+int gene = countGenes(dna);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:252: error: class, interface, or enum expected
+System.out.println(gene);
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:253: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:255: error: class, interface, or enum expected
+public void testfindSimpleGeneSimplifiedVersion(){
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:257: error: class, interface, or enum expected
+String dna = fr.asString();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:258: error: class, interface, or enum expected
+dna = dna.toUpperCase();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:259: error: class, interface, or enum expected
+String gene = findSimpleGeneSimplifiedVersion(dna, "ATG", "TAA");
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:260: error: class, interface, or enum expected
+System.out.println(gene.toUpperCase());
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:261: error: class, interface, or enum expected
+System.out.println(gene.toLowerCase());
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:262: error: class, interface, or enum expected
+}
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:264: error: class, interface, or enum expected
+public void testfindSimpleGene(){
+       ^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:266: error: class, interface, or enum expected
+String dna = fr.asString();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:267: error: class, interface, or enum expected
+dna = dna.toUpperCase();
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:268: error: class, interface, or enum expected
+System.out.println(findSimpleGene(dna));
+^
+/Users/mustafa/Documents/Online Courses/JAVA/GeneProject ++ testwork/Test1.java:269: error: class, interface, or enum expected
+}
+^
+99 errors

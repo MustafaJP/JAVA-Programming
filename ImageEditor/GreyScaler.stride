@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="GreyScaler" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.io.*" enable="true"/>
+        <import target="edu.duke.*" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors/>
+    <methods>
+        <method access="public" type="ImageResource" type-java="ImageResource" name="makeGray" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params>
+                <param type="ImageResource" type-java="ImageResource" name="inImage"/>
+            </params>
+            <throws/>
+            <body>
+                <variable type="ImageResource" type-java="ImageResource" name="outImage" value="new ImageResource ( inImage . getWidth ( ) , inImage . getHeight ( ) )" value-java="new ImageResource ( inImage . getWidth ( ) , inImage . getHeight ( ) )" enable="true"/>
+                <foreach type="Pixel" type-java="Pixel" var="pixel" collection="outImage . pixels ( )" collection-java="outImage . pixels ( )" enable="true">
+                    <variable type="Pixel" type-java="Pixel" name="inPixel" value="inImage . getPixel ( pixel . getX ( ) , pixel . getY ( ) )" value-java="inImage . getPixel ( pixel . getX ( ) , pixel . getY ( ) )" enable="true"/>
+                    <variable type="int" type-java="int" name="avg" value="( inPixel . getRed ( ) + inPixel . getRed ( ) + inPixel . getGreen ( ) ) / 3" value-java="( inPixel . getRed ( ) + inPixel . getRed ( ) + inPixel . getGreen ( ) ) / 3" enable="true"/>
+                    <call expression="pixel . setRed ( avg )" expression-java="pixel . setRed ( avg )" enable="true"/>
+                    <call expression="pixel . setBlue ( avg )" expression-java="pixel . setBlue ( avg )" enable="true"/>
+                    <call expression="pixel . setGreen ( avg )" expression-java="pixel . setGreen ( avg )" enable="true"/>
+                </foreach>
+                <return value="outImage" value-java="outImage" enable="true"/>
+            </body>
+        </method>
+        <method access="public" type="void" type-java="void" name="doSave" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params/>
+            <throws/>
+            <body>
+                <variable type="DirectoryResource" type-java="DirectoryResource" name="dr" value="new DirectoryResource ( )" value-java="new DirectoryResource ( )" enable="true"/>
+                <foreach type="File" type-java="File" var="f" collection="dr . selectedFiles ( )" collection-java="dr . selectedFiles ( )" enable="true">
+                    <variable type="ImageResource" type-java="ImageResource" name="inImage" value="new ImageResource ( f )" value-java="new ImageResource ( f )" enable="true"/>
+                    <variable type="ImageResource" type-java="ImageResource" name="gray" value="makeGray ( inImage )" value-java="makeGray ( inImage )" enable="true"/>
+                    <variable type="String" type-java="String" name="fname" value="inImage . getFileName ( )" value-java="inImage . getFileName ( )" enable="true"/>
+                    <variable type="String" type-java="String" name="newName" value="&quot;gray-&quot; + fname + &quot;.png&quot;" value-java="&quot;gray-&quot; + fname + &quot;.png&quot;" enable="true"/>
+                    <call expression="gray . setFileName ( newName )" expression-java="gray . setFileName ( newName )" enable="true"/>
+                    <call expression="gray . draw ( )" expression-java="gray . draw ( )" enable="true"/>
+                    <call expression="gray . save ( )" expression-java="gray . save ( )" enable="true"/>
+                </foreach>
+            </body>
+        </method>
+    </methods>
+</class>
